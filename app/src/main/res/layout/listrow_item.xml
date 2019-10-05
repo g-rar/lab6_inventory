@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/SwItemTextView_productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/str_productnamePlaceHolder"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/SwItemTextView_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/SwItemTextView_productName"
+        android:layout_toRightOf="@+id/SwItemTextView_productName"
+        android:text="@string/lorem_Ipsum1" />
+
+    <TextView
+        android:id="@+id/SwtextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/str_labelPrecio" />
+
+    <TextView
+        android:id="@+id/SwItemTextView_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/SwtextView_cantLabel"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/SwtextView_cantLabel"
+        android:layout_toRightOf="@+id/SwtextView_cantLabel"
+        android:text="@string/str_cantidadPlaceHolder" />
+
+    <TextView
+        android:id="@+id/SwtextView_cantLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SwItemTextView_productName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/str_labelCantidad" />
+
+    <TextView
+        android:id="@+id/SwItemTextView_precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SwtextView3"
+        android:layout_alignEnd="@+id/SwtextView3"
+        android:layout_alignRight="@+id/SwtextView3"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:gravity="left"
+        android:text="@string/str_precioPlaceHolder" />
+</RelativeLayout>

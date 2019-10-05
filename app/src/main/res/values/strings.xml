@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">lab6_inventory</string>
+    <string name="str_addProduct">Añadir producto</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="prompt_email">Correo</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="str_register">Registrarse</string>
+    <string name="str_logout">Salir</string>
+    <string name="str_usernamePlaceHolder">username</string>
+    <string name="str_productnamePlaceHolder">Coca-Cola</string>
+    <string name="str_cantidadPlaceHolder">25</string>
+    <string name="str_labelCantidad">Cantidad:</string>
+    <string name="lorem_Ipsum1">Lorem ipsum dolor sit amet.</string>
+    <string name="str_precioPlaceHolder">15.3</string>
+    <string name="str_labelPrecio">Precio</string>
+    <string name="str_pNameLabel">Nombre:</string>
+    <string name="str_pDescLabel">Descripción:</string>
+    <string name="str_pPrecioLabel">Precio:</string>
+    <string name="str_pCantidadLabel">Cantidad:</string>
+    <string name="str_crearProducto">Crear Producto</string>
+    <string name="str_create">Crear</string>
+    <string name="str_regresar">Regresar</string>
+    <string name="str_fillAll">Por favor rellene todos los campos</string>
+</resources>
